@@ -19,9 +19,9 @@ github "boxen", "1.2.0"
 # some/most of these if you want, but it's not recommended.
 
 github "gcc",      "1.0.0"
-github "git",      "1.2.2"
+github "git",      "1.0.0"
 github "homebrew", "1.1.2"
-github "ruby",     "4.0.0"
+github "ruby",     "3.1.0"
 github "stdlib",   "3.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",     "1.0.0"
 

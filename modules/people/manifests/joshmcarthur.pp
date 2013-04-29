@@ -30,6 +30,7 @@ class people::joshmcarthur {
   include spectacle # dieterdemeyer/puppet-spectacle
   include gimp # fschwiet/puppet-gimp
   include oh-my-zsh # pfeff/puppet-oh-my-zsh
+  include calibre # agilecoders/puppet-calibre
 
   heroku::plugin { 'accounts':
     source => 'ddollar/heroku-accounts'

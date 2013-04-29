@@ -23,11 +23,12 @@ class people::joshmcarthur {
   include zsh
   include phantomjs
   include onepassword
+  include fluid
 
   # Third-party
   include evernote # jasonamyers/puppet-evernote
-  include spectable # dieterdemeyer/puppet-spectacle
-  include gimp # fschwiet/puppet-gimp · GitHub
+  include spectacle # dieterdemeyer/puppet-spectacle
+  include gimp # fschwiet/puppet-gimp
   include oh-my-zsh # pfeff/puppet-oh-my-zsh
 
   heroku::plugin { 'accounts':

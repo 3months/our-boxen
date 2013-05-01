@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: agilecoders/puppet-calibre
+  specs:
+    calibre (0.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-adium
   specs:
     adium (1.1.1)
@@ -62,11 +67,6 @@ GITHUBTARBALL
   remote: boxen/puppet-mou
   specs:
     mou (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-mysql
-  specs:
-    mysql (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-onepassword
@@ -154,9 +154,9 @@ GITHUBTARBALL
     spectacle (1.0.1)
 
 GITHUBTARBALL
-  remote: petems/puppet-calibre
+  remote: joshmcarthur/puppet-mysql
   specs:
-    calibre (1.0.0)
+    mysql (1.1.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
@@ -168,7 +168,7 @@ DEPENDENCIES
   alfred (= 1.0.2)
   autojump (= 1.0.0)
   boxen (= 1.2.0)
-  calibre (= 1.0.0)
+  calibre (= 0.0.1)
   ccleaner (= 1.0.2)
   chrome (= 1.1.0)
   evernote (= 1.0.1)

@@ -29,7 +29,6 @@ class people::charlespeach {
   # Third-party
   include evernote # jasonamyers/puppet-evernote
   include spectacle # jhubert/puppet-spectacle
-  include gimp # fschwiet/puppet-gimp
   include calibre # agilecoders/puppet-calibre
 
   heroku::plugin { 'accounts':

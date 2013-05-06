@@ -18,6 +18,8 @@ class people::joshmcarthur {
   # [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
   include autojump
+  include xquartz
+  include imagemagick
   include heroku
   include chrome::canary
   include postgresql

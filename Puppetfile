@@ -51,6 +51,8 @@ github "heroku", "2.0.0"
 github "chrome", "1.1.0"
 github "zsh", "1.0.0"
 github "phantomjs", "1.0.0"
+github "imagemagick", "1.2.0"
+github "xquartz", "1.0.0"
 github "onepassword", "1.0.0"
 github "btsync", "1.0.0", :repo => "joshmcarthur/puppet-btsync"
 # Note: Evernote currently can't install due to the need to accept

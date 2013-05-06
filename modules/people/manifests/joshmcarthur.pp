@@ -10,7 +10,7 @@ class people::joshmcarthur {
   include ccleaner
   include vlc
   include virtualbox
-  include mysql
+  include mysql # joshmcarthur/puppet-mysql
   include iterm2::stable
   include skype
 
@@ -18,6 +18,8 @@ class people::joshmcarthur {
   # [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
   include autojump
+  include xquartz
+  include imagemagick
   include heroku
   include chrome::canary
   include postgresql
@@ -25,6 +27,7 @@ class people::joshmcarthur {
   include phantomjs
   include onepassword
   include fluid
+  include transmission
 
   # Third-party
   include evernote # jasonamyers/puppet-evernote

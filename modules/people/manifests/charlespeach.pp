@@ -10,7 +10,7 @@ class people::charlespeach {
   include ccleaner
   include vlc
   include virtualbox
-  include mysql
+  include mysql # joshmcarthur/puppet-mysql
   include iterm2::stable
   include skype
 
@@ -29,7 +29,7 @@ class people::charlespeach {
   include fluid
 
   # Third-party
-  include evernote # jasonamyers/puppet-evernote
+  # include evernote # jasonamyers/puppet-evernote
   include spectacle # jhubert/puppet-spectacle
   include calibre # agilecoders/puppet-calibre
 

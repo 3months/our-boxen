@@ -3,6 +3,7 @@
 
 # Change the prefix boxen is installed to.
 # ENV['BOXEN_HOME'] = '/opt/boxen'
+ENV["BOXEN_SRC_DIR"] = "Sites"
 
 # Change the repo boxen will use.
 # ENV['BOXEN_REPO_NAME'] = 'boxen/our-boxen'

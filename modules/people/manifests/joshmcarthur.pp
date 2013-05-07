@@ -30,7 +30,7 @@ class people::joshmcarthur {
   include transmission
 
   # Third-party
-  include evernote # jasonamyers/puppet-evernote
+  # include evernote # jasonamyers/puppet-evernote
   include spectacle # jhubert/puppet-spectacle
   include gimp # fschwiet/puppet-gimp
   include calibre # agilecoders/puppet-calibre
